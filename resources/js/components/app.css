@@ -1,0 +1,90 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+* {
+    list-style: none;
+}
+
+body {
+    background-color: #F6F6F6;
+    font-family: 'Roboto', sans-serif;
+}
+
+.NavBarContainer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 90px;
+    width: 100%;
+    box-shadow: 0px 0px 1px 0px #333333;
+    background-color: #fff;
+}
+
+.LogoCompany {
+    height: 60px;
+    width: 180px;
+    margin: 0px;
+    box-shadow: 0px 0px 4px 0px #333333;
+}
+
+.NavItems {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.SocialIcons {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0px;
+    padding: 0px;
+    width: 210px;
+    margin-right: 40px;
+}
+.SocialIcons>li {
+    padding:11px;
+    border-radius: 100px;
+    margin: 0px;
+    background-color: #FFE9CE;
+    font-size: 26px;
+}
+.SocialIcons>li>a>svg {
+    fill: #F39200;
+    /* filter: invert(74%) sepia(16%) saturate(3938%) hue-rotate(339deg) brightness(94%) contrast(87%); */
+}
+.BkMrkPrfLst{
+    margin: 0px;
+    padding: 0px;
+    display: flex;
+    align-items: center;
+}
+.BkMrkPrfLst > li{
+    padding:11px;
+    border-radius: 100px;
+    margin: 0px;
+    font-size: 26px;
+}
+.BkMrkPrfLst > li >span{
+    display: block;
+    height: 40px;
+    width: 1px;
+    background-color: #7F7C79;
+}
+.BkMrkPrfLst > li >a>svg{
+    fill: #7F7C79;
+}
+
+
+
+
+@media screen and (max-width:769px) {
+    .LogoCompany {
+        height: 50px;
+        width: 110px;
+    }
+    .SocialIcons {
+        width: 160px;
+    }
+    .SocialIcons>li {
+        font-size: 26px;
+    }
+}
